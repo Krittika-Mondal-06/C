@@ -13,6 +13,5 @@ printf("%d is a perfect number.\n", num);
 } else {
 printf("%d is not a perfect number.\n", num);
 }
-printf("Name:-Krittika Mondal,Class:-MCA1A,Roll-29");
 return 0;
 }
