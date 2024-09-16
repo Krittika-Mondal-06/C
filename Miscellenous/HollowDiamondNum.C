@@ -29,7 +29,7 @@ int main()
                 printf("%d ", k + 1);
             }
             else {
-                printf("1 ");
+                printf("  ");
             }
         }
         printf("\n");
