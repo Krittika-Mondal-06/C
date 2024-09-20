@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, element, found = 0;
+    int n, element, found = 0,i;
 
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
@@ -16,7 +16,7 @@ int main() {
     printf("Enter the element to search for: ");
     scanf("%d", &element);
 
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         if (arr[i] == element) {
             found = 1;
             break;
